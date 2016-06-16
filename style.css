@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.background-img {
+}
+
+.row {
+}
+
+.column-container {
+  overflow: auto;
+  background: gray;
+}
+
+.column {
+  display: inline-block;
+}
+
+.elim-status {
+}
+
+.weapon-status {
+}
+
+.gun-img {
+}
