@@ -3,29 +3,46 @@
 }
 
 body {
-  margin: 0;
+  color: #eee;
+  font-family: Helvetica, sans-serif;
+
+  background: url('http://wallup.net/wp-content/uploads/2016/01/29160-waterfall-movies-The_Lord_of_the_Rings-Rivendell-736x459.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.background-img {
+
+
+img {
 }
 
-.row {
+.avatar-img {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  float: left;
 }
 
-.column-container {
-  overflow: auto;
-  background: gray;
-}
-
-.column {
-  display: inline-block;
-}
-
-.elim-status {
-}
-
-.weapon-status {
+.middle-img {
+  position: fixed;
+  bottom: 1rem;
+  right: 50%;
+  left: 50%;
 }
 
 .gun-img {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  float: right;
+}
+
+.content {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.row {
 }
