@@ -18,25 +18,66 @@ body {
 img {
 }
 
-.avatar-img {
+/*p {
+  font-family: sans-serif;
+  color: black;
+  background: gray;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}*/
+
+.leftside {
   position: fixed;
   bottom: 1rem;
   left: 1rem;
   float: left;
+  opacity: 0.7;
 }
 
-.middle-img {
+.avatar-img {
+  height: 5rem;
+  width: 5rem;
+  margin-left: 2rem;
+  position: relative;
+  display: inline;
+}
+
+.health-img {
+  display: inline;
+  height: 5rem;
+  width: 7rem;
+  opacity: 0.7;
+  position: relative;
+}
+
+.healthscore {
+  font-family: sans-serif;
+  position: relative;
+  display: inline;
+}
+
+.middleside {
   position: fixed;
   bottom: 1rem;
   right: 50%;
   left: 50%;
+  opacity: 0.7;
 }
 
-.gun-img {
+.rightside {
   position: fixed;
   bottom: 1rem;
   right: 1rem;
   float: right;
+  opacity: 0.7;
+}
+
+.gun-img__img {
+  height: 7rem;
+  width: 7rem;
+  margin-right: 2rem;
+  transform: skewY(7deg);
 }
 
 .content {
