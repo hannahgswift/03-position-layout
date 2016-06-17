@@ -6,7 +6,7 @@ body {
   color: #eee;
   font-family: Helvetica, sans-serif;
 
-  background: url('http://wallup.net/wp-content/uploads/2016/01/29160-waterfall-movies-The_Lord_of_the_Rings-Rivendell-736x459.jpg') no-repeat center center fixed;
+  background: url('http://vignette2.wikia.nocookie.net/overwatch/images/d/de/Lijiang_screenshot_3.jpg/revision/latest?cb=20160521222012') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,28 +33,53 @@ img {
   left: 1rem;
   float: left;
   opacity: 0.7;
+  transform: skewY(-4deg);
+  /*background: gray;*/
+
 }
 
 .avatar-img {
   height: 5rem;
-  width: 5rem;
+  width: auto;
   margin-left: 2rem;
   position: relative;
-  display: inline;
+  display: inline-block;
 }
 
 .health-img {
-  display: inline;
+  display: block;
   height: 5rem;
-  width: 7rem;
+  width: auto;
   opacity: 0.7;
   position: relative;
+}
+
+.fa-heartbeat {
+  color: darkred;
+  text-shadow: 0.1rem 0.1rem black;
+  margin-bottom: 2rem;
+
+}
+
+.middle-img {
+  height: 7rem;
+  width: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
 }
 
 .healthscore {
   font-family: sans-serif;
   position: relative;
-  display: inline;
+  display: block;
+  color: black;
+  font-weight: bold;
+}
+
+.healthstuff {
+  display: inline-block;
+  position: relative;
 }
 
 .middleside {
@@ -63,6 +88,23 @@ img {
   right: 50%;
   left: 50%;
   opacity: 0.7;
+  /*background: gray;*/
+  display: block
+}
+
+.elim-text {
+  position: relative;
+  display: block;
+  width: 10rem;
+  transform: translate(-25%);
+
+  font-family: sans-serif;
+  color: darkred;
+  text-shadow: 0.1rem 0.1rem black;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  /*background: gray;*/
 }
 
 .rightside {
@@ -71,19 +113,37 @@ img {
   right: 1rem;
   float: right;
   opacity: 0.7;
+  background: gray;
+  transform: skewY(4deg);
 }
 
-.gun-img__img {
+.abilityicons {
+  margin-bottom: 3rem;
+  display: inline-block;;
+  position: relative;
+}
+
+.ability1-img {
+  width: 2rem;
+  height: auto;
+  display: inline;
+}
+
+.ability2-img {
+  transform: rotate(90deg);
+  width: 2rem;
+  height: auto;
+  display: inline;
+}
+
+.gun-img {
   height: 7rem;
-  width: 7rem;
+  width: auto;
   margin-right: 2rem;
-  transform: skewY(7deg);
+  display: inline-block;
 }
 
 .content {
   max-width: 60rem;
   margin: 0 auto;
-}
-
-.row {
 }
