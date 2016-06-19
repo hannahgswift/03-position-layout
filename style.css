@@ -17,7 +17,6 @@ body {
   position: fixed;
   bottom: 1rem;
   left: 1rem;
-  float: left;
   transform: skewY(-4deg);
   margin: 3rem;
 }
@@ -63,9 +62,19 @@ body {
   color: white;
   outline: black;
   text-shadow: 0.1rem 0.1rem black;
-  font-weight: bold;
   margin: 0;
   text-align: left;
+}
+
+.first500 {
+  font-size: 2rem;
+  background: none;
+  color: white;
+}
+
+.healthscoreSL {
+  color: lightblue;
+  background: none;
 }
 
 .healthstuff {
