@@ -50,8 +50,7 @@ body {
   height: 10rem;
   width: auto;
   position: fixed;
-  top: 50%;
-  left: 50%;
+  transform: translate(0rem, -14rem);
 }
 
 .healthscore {
@@ -92,7 +91,6 @@ body {
 }
 
 .elim-text {
-  position: relative;
   display: block;
   width: 15rem;
   transform: translate(-25%);
@@ -118,6 +116,8 @@ body {
 
 .text-group {
   margin-bottom: 5rem;
+  display: fixed;
+  transform: translate(0rem, 1rem);
 }
 
 .rightside {
