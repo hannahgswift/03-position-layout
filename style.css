@@ -48,10 +48,11 @@ body {
 
 .smilecontainer {
   position: absolute;
+  margin: auto;
   width: 10rem;
   height: auto;
-  top: 25%;
-  right: 44%;
+  top: 30%;
+  left: 45%;
 }
 
 .middle-img {
@@ -93,15 +94,17 @@ body {
 
 .text-group {
   position: absolute;
-  top: 60%;
-  left: 40%;
+  margin: auto;
+  top: 30%;
+  left: 41.5%;
+  transform: translateY(15rem);
 }
 
 .elim-text {
-  display: block;
+  /*display: block;*/
   width: 15rem;
   /*transform: translate(-25%);*/
-  margin: 0;
+  margin: auto;
 
   font-size: 2rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
