@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #eee;
+  font-family: Helvetica, sans-serif;
+
+  background: url('http://vignette2.wikia.nocookie.net/overwatch/images/d/de/Lijiang_screenshot_3.jpg/revision/latest?cb=20160521222012') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.leftside {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  transform: skewY(-4deg);
+  margin: 3rem;
+}
+
+.avatar-img {
+  height: 5rem;
+  width: auto;
+  margin-left: 2rem;
+  margin-right: 0.5rem;
+  position: relative;
+  display: inline-block;
+  bottom: -1.5rem;
+
+}
+
+.health-img {
+  display: block;
+  height: 5rem;
+  width: auto;
+  position: relative;
+}
+
+.fa-heartbeat {
+  color: darkred;
+  text-shadow: 0.1rem 0.1rem black;
+  margin-bottom: 2rem;
+
+}
+
+.smilecontainer {
+  position: absolute;
+  margin: auto;
+  width: 10rem;
+  height: auto;
+  top: 30%;
+  left: 45%;
+}
+
+.middle-img {
+  width: 100%;
+  height: auto;
+  /*height: 10rem;
+  width: auto;
+  position: fixed;
+  transform: translate(0rem, -14rem);*/
+}
+
+.healthscore {
+  font-family: sans-serif;
+  font-size: 1rem;
+  position: relative;
+  display: block;
+  color: white;
+  outline: black;
+  text-shadow: 0.1rem 0.1rem black;
+  margin: 0;
+  text-align: left;
+}
+
+.first500 {
+  font-size: 1.5rem;
+  background: none;
+  color: white;
+}
+
+.healthscoreSL {
+  color: lightblue;
+  background: none;
+}
+
+.healthstuff {
+  display: inline-block;
+  position: relative;
+}
+
+.text-group {
+  position: absolute;
+  margin: auto;
+  top: 30%;
+  left: 41.5%;
+  transform: translateY(15rem);
+}
+
+.elim-text {
+  /*display: block;*/
+  width: 15rem;
+  /*transform: translate(-25%);*/
+  margin: auto;
+
+  font-size: 2rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: white;
+  outline: black;
+  text-shadow: 0.1rem 0.1rem black;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  /*background: gray;*/
+}
+
+.red {
+  color: darkred;
+  outline: black;
+  text-shadow: 0.1rem 0.1rem black;
+  background: none;
+}
+
+
+
+.rightside {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  float: right;
+  transform: skewY(4deg);
+  margin: 3rem;
+  /*background: gray;*/
+}
+
+.abilityicons {
+  display: inline-block;;
+  position: relative;
+}
+
+.gunstuff {
+  display: inline-block;
+  position: relative;
+}
+
+.gunscore {
+  font-family: sans-serif;
+  font-size: 1rem;
+  position: relative;
+  display: block;
+  color: white;
+  outline: black;
+  text-shadow: 0.1rem 0.1rem black;
+  margin: 0;
+  bottom: -5rem;
+  left: -2rem;
+  text-align: right;
+  transform: skewY(4deg);
+}
+
+.first41 {
+  font-size: 1.5rem;
+  background: none;
+  color: white;
+}
+
+.gunscoreSL {
+  color: lightblue;
+  background: none;
+}
+
+.ability1-img {
+  width: 2rem;
+  height: auto;
+  display: inline;
+
+}
+
+.ability2-img {
+  transform: rotate(90deg);
+  width: 2rem;
+  height: auto;
+  display: inline;
+}
+
+.gun-img {
+  height: 7rem;
+  width: auto;
+  margin-right: 2rem;
+  position: relative;
+  display: inline-block;
+  bottom: -3rem;
+}
+
+.content {
+  max-width: 60rem;
+  margin: 0 auto;
+}
